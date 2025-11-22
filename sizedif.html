@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h3>Differentiate between pixel, percentage and rem in CSS</h3>
+
+    <p>pixel
+        Their key difference lies in whether they are absolute or relative and what they are relative to.
+1. Pixel (px):
+Absolute Unit: Pixels are an absolute unit of measurement, meaning their value is fixed and does not change based on other elements or the user's browser settings.
+Fixed Size: A 16px font size will always be 16 pixels, regardless of the parent element's font size or the root HTML element's font size.
+Use Cases: Ideal for elements that require a precise, fixed size, like borders, small icons, or images where consistent dimensions are crucial.
+2. Percentage (%):
+Relative Unit: Percentages are a relative unit, meaning their value is calculated based on the size of their parent element.
+Parent-Dependent: A width: 50% means the element will take up 50% of its parent element's width. If the parent's width changes, the element's width will also adjust proportionally.
+Use Cases: Excellent for creating fluid and responsive layouts where elements need to adapt to the size of their containing element, often used for widths, heights, padding, and margins.
+3. Root Em (rem):
+Relative Unit: rem stands for "root em" and is a relative unit that scales based on the font-size of the root HTML element (the <html> tag).
+Root-Dependent: If the font-size of the <html> element is set to 16px, then 1rem will equal 16px. If the root font-size is changed to 20px, then 1rem will become 20px.
+Accessibility and Scalability: rem is particularly useful for typography and spacing as it allows for easy scaling of the entire design by simply adjusting the root font-size. This significantly improves accessibility for users who prefer larger or smaller text sizes.
+Use Cases: Recommended for defining global font sizes, consistent spacing, and elements that should scale uniformly with the user's preferred text size, regardless of their parent's specific font size.
+    </p>
+
+    
+
+</body>
+</html>
